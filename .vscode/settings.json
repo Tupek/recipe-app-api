@@ -3,7 +3,9 @@
     "python.linting.pylintEnabled": true,
     "python.linting.flake8Enabled": false,
     "python.linting.enabled": true,
-    "python.linting.pep8Enabled": false,
+    "python.linting.pep8Enabled": true,
     "python.linting.banditEnabled": false,
+
+    "python.linting.pylintArgs": ["--reports", "12", "--disable-msg", "I0011", "--load-plugins", "pylint_django"],
 
 }
